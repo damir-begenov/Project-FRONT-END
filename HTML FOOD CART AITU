@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:900|Roboto:300&display=swap&subset=cyrillic" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/header-page.css">
+  <link rel="stylesheet" href="css/section-top.css">
+  <link rel="stylesheet" href="css/footer.css">
+
+  <title>AITU FOOD CART</title>
+</head>
+<body>
+
+<!-- header-page -->
+<header class="header-page">
+  <div class="container header-page__container">
+    <div class="header-page__start">
+      <div class="logo">
+        <a href = "index.html"><img src="https://static.tildacdn.com/tild3366-6632-4135-a433-623932303730/Astana_IT_University.png"></a>
+        <a href = "index.html"><img src="https://phonoteka.org/uploads/posts/2021-04/1619236816_22-phonoteka_org-p-fon-dlya-shkolnoi-stolovoi-26.png"></a>
+      </div>
+    </div>
+    <div class="header-page__end">
+      <nav class="header-page__nav">
+        <ul class="header-page__ul">
+          <li class="header-page__li">
+            <a class="header-page__link" href="first.html"><span class="header-page__text">FIRST</span></a>
+          </li>
+          <li class="header-page__li">
+            <a class="header-page__link" href="second.html"><span class="header-page__text">SECOND</span></a>
+          </li>
+          <li class="header-page__li">
+            <a class="header-page__link" href="drinks.html"><span class="header-page__text">DRINKS</span></a>
+          </li>
+          <li class="header-page__li">
+            <a class="header-page__link" href="#"><span class="header-page__text">CART</span></a>
+          </li>
+        </ul>
+      </nav>
+      <div class="phone"><a class="phone__item header-page__phone" href="login.html">LOGOUT</a></div>
+    </div>
+  </div>
+</header>
+<!-- /.header-page -->
+
+
+<!-- section-top -->
+<section class="section-top">
+  <div class=" section-top__container container">
+    <p class="section-top__info">FROM AITU FROM HEART</p>
+    <h1 class="section-top__title">WHY STAY AT LINE,JUST ORDER AND GET READY FOR DEADLINE</h1>
+    <div class="section-top__btn">
+      <button class="btn" type="button"><a href="#sec-2">CLICK IF YOU ARE HUNGRY</button></a
+    </div>
+
+  </div>
+</section>
+<!-- /.section-top -->
+
+<!-- section-catalog -->
+<section id="sec-2" class="section section-catalog">
+  <div class="container">
+    <header class="section__header">
+      <h2 class="section__title section__title--accent">MENU</h2>
+    </header>
+
+    <div class="catalog">
+      <div class="catalog__item">
+        <div class="product catalog__product">
+          <img src="https://wp-uploads.storage.yandexcloud.net/uploads/2021/04/theobed.ru_-1536x1074.jpg" alt="" class="product__img">
+          <div class="product__content">
+            <h3 class="product__title">BUCKWHEAT WITH CHICKEN</h3>
+            <p class="product__description">Buckwheat groats, Chicken fillet, Carrots, Onions</p>
+          </div>
+          <footer class="product__footer">
+            <div class="product__bottom">
+              <div class="product__price">
+                <span class="product__price-value">550₸</span>
+              </div>
+              <button class="btn product__btn" type="button">ADD TO CART</button>
+            </div>
+          </footer>
+        </div>
+      </div>
+      <div class="catalog__item">
+        <div class="product catalog__product">
+          <img src="http://world.lisagermany.com/wp-content/uploads/2017/04/DSCF2294.jpg" alt="" class="product__img">
+          <div class="product__content">
+            <h3 class="product__title">PILAF WITH BEEF</h3>
+            <p class="product__description">Beef, Long-grain rice, Carrots, onions, cumin, ground red pepper</p>
+          </div>
+          <footer class="product__footer">
+            <div class="product__bottom">
+              <div class="product__price">
+                <span class="product__price-value">550₸</span>
+              </div>
+              <button class="btn product__btn" type="button">ADD TO CART</button>
+            </div>
+          </footer>
+        </div>
+      </div>
+      <div class="catalog__item">
+        <div class="product catalog__product">
+          <img src="https://img.tourister.ru/files/2/3/0/5/3/3/3/3/original.jpg" alt="" class="product__img">
+          <div class="product__content">
+            <h3 class="product__title">BORW</h3>
+            <p class="product__description">Beets, Potatoes, Cabbage, Carrots, Sour cream, Bay leaf</p>
+          </div>
+          <footer class="product__footer">
+
+            <div class="product__bottom">
+              <div class="product__price">
+                <span class="product__price-value">550₸</span>
+              </div>
+              <button class="btn product__btn" type="button">ADD TO CART</button>
+            </div>
+          </footer>
+        </div>
+      </div>
+      <div class="catalog__item">
+        <div class="product catalog__product">
+          <img src="https://vfigure.ru/wp-content/uploads/2016/01/2117401-min.jpg" alt="" class="product__img">
+          <div class="product__content">
+            <h3 class="product__title">LENTIL SOUP</h3>
+            <p class="product__description">Red lentils, Potatoes, Bell peppers, Tomatoes, Tomato paste </p>
+          </div>
+          <footer class="product__footer">
+
+            <div class="product__bottom">
+              <div class="product__price">
+                <span class="product__price-value">550₸</span>
+              </div>
+              <button class="btn product__btn" type="button">ADD TO CART</button>
+            </div>
+          </footer>
+        </div>
+      </div>
+      <div class="catalog__item">
+        <div class="product catalog__product">
+          <img src="https://kartinkin.net/uploads/posts/2021-07/1625335192_45-kartinkin-com-p-sup-lapsha-yeda-krasivo-foto-54.jpg" alt="" class="product__img">
+          <div class="product__content">
+            <h3 class="product__title">NOODLE SOUP</h3>
+            <p class="product__description">Chicken, Celery stalked, Greens, green onion</p>
+          </div>
+          <footer class="product__footer">
+
+            <div class="product__bottom">
+              <div class="product__price">
+                <span class="product__price-value">550₸</span>
+              </div>
+              <button class="btn product__btn" type="button">ADD TO CART</button>
+            </div>
+          </footer>
+        </div>
+      </div>
+      <div class="catalog__item">
+        <div class="product catalog__product">
+          <img src="https://img.povar.ru/uploads/8b/92/fe/47/28b45620e6249fdce89f64b207b8ab0d.jpg" alt="" class="product__img">
+          <div class="product__content">
+            <h3 class="product__title">KOREAN SALAD</h3>
+            <p class="product__description">Carrot, Garlic, apple vinegar, Ground black pepper</p>
+          </div>
+          <footer class="product__footer">
+
+            <div class="product__bottom">
+              <div class="product__price">
+                <span class="product__price-value">150₸</span>
+              </div>
+              <button class="btn product__btn" type="button">ADD TO CART</button>
+            </div>
+          </footer>
+        </div>
+      </div>
+      <div class="catalog__item">
+        <div class="product catalog__product">
+          <img src="https://www.photorecept.ru/wp-content/uploads/2020/08/7-1-1300x827.jpg" alt="" class="product__img">
+          <div class="product__content">
+            <h3 class="product__title">VEGETABLE SALAD</h3>
+            <p class="product__description">White cabbage, Fresh cucumbers, red bell pepper, yellow bell pepper</p>
+          </div>
+          <footer class="product__footer">
+
+            <div class="product__bottom">
+              <div class="product__price">
+                <span class="product__price-value">150₸</span>
+              </div>
+              <button class="btn product__btn" type="button">ADD TO CART</button>
+            </div>
+          </footer>
+        </div>
+      </div>
+      <div class="catalog__item">
+        <div class="product catalog__product">
+          <img src="https://cdnn21.img.ria.ru/images/07e4/07/16/1574742250_0:0:3000:2000_1920x0_80_0_0_fa8305d57fbdaea7eedea7c216d2da3f.jpg" alt="" class="product__img">
+          <div class="product__content">
+            <h3 class="product__title">KOMPOT</h3>
+            <p class="product__description">Dried Apricots, Prunes, Raisins, Lemon, Water</p>
+          </div>
+          <footer class="product__footer">
+            <div class="product__bottom">
+              <div class="product__price">
+                <span class="product__price-value">100₸</span>
+              </div>
+              <button class="btn product__btn" type="button">ADD TO CART</button>
+            </div>
+          </footer>
+        </div>
+      </div>
+      <div class="catalog__item">
+        <div class="product catalog__product">
+          <img src="https://бабушкинырецепты.рф/wp-content/uploads/2019/03/word-image-182.jpeg" alt="" class="product__img">
+          <div class="product__content">
+            <h3 class="product__title">SAMSA</h3>
+            <p class="product__description">Sesame, Onion, dough, Meat, Chicken eggs</p>
+          </div>
+          <footer class="product__footer">
+
+            <div class="product__bottom">
+              <div class="product__price">
+                <span class="product__price-value">200₸</span>
+              </div>
+              <button class="btn product__btn" type="button">ADD TO CART</button>
+            </div>
+          </footer>
+        </div>
+      </div>
+      <div class="catalog__item">
+        <div class="product catalog__product">
+          <img src="https://pngimg.com/uploads/fanta/fanta_PNG61.png" alt="" class="product__img">
+          <div class="product__content">
+            <h3 class="product__title">SODA</h3>
+            <p class="product__description">Cola, Fanta, Pepsi</p>
+          </div>
+          <footer class="product__footer">
+
+            <div class="product__bottom">
+              <div class="product__price">
+                <span class="product__price-value">400₸</span>
+              </div>
+              <button class="btn product__btn" type="button">ADD TO CART</button>
+            </div>
+          </footer>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+<!-- /.section-catalog -->
+
+<footer class="container">
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="https://astanait.edu.kz">Contact</a>
+    <a href="https://astanait.edu.kz">AITU</a>
+  </nav>
+  <div class="logo">
+    <a href="index.html"><img class="graficlogo"src="img/logoog.png" alt=""></a>
+  </div>
+</footer>
+</body>
+</html>
