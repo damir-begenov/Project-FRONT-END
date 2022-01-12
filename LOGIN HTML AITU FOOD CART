@@ -1,0 +1,77 @@
+<html>
+<head>
+  <title>Login to AITU FOOD CART</title>
+<head>
+<body>
+  <style type="text/css">
+  @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap');
+  body {
+    background: url('https://recipebox.ru/wp-content/uploads/2021/06/zdorovaya-eda-1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 300px;
+  }
+ ::-webkit-input-placeholder {
+ color: grey;
+ font-family: Roboto;
+ }
+  #text {
+    height: 30px;
+    border-radius: 10px;
+    padding: 5px;
+    border: solid thin #aaa;
+    font-family: Roboto;
+  }
+
+ #box {
+ background-color: white;
+ border-radius: 25px;
+ margin: auto;
+ width: 300px;
+ height: 400px;
+ padding: 20px;
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ margin-right: -50%;
+ transform: translate(-50%, -50%);
+ }
+
+  #button {
+    padding: 10px;
+    width: 120px;
+    color: white;
+    background-color: #1E90FF;
+    border: none;
+    font-family: Roboto;
+    border-radius: 10px;
+  }
+  </style>
+  <center>
+  <div id="box">
+
+     <form method="post">
+   <p><img src="img/logog.jpeg" width="50%" height="25%"></p>
+      <div style="font-size:24px; margin: 15px; color: #303030; font-family: Roboto;"><b>Login To AituFooD</b></div>
+      <input id ="text" placeholder="Your Username" type="text" name="user_name"><br><br>
+      <input id ="text" placeholder="Your Password" type="password" name="password"><br><br>
+      <form action = "index.html">
+      <a href="index.html" class="button" style="padding: 10px;
+  width: 140px;
+  color: white;
+  text-decoration: none;
+  background-color: #1E90FF;
+  border: none;
+  font-family: Roboto;
+  border-radius: 10px; ">Login</a>
+  <br></br>
+      </form>
+      <p style="font-size:16px; color: #303030; font-family: Roboto;"><b>Do not have an account?</b></p>
+      <a href="signup.html" style="font-size:14px; color: #303030; font-family: Roboto; "><b>Signup</b></a><br><br>
+    </form>
+  </div>
+</center>
+</body>
+</html>
+
